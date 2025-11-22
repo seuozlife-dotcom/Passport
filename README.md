@@ -165,7 +165,7 @@
             <div id="uxdiv">
             <div id="uxdiv01">
             <div id="uxdiv02">
-            <a class="uxa1" href="prjt9th.html">ریاست عمومی پاسپورت</a>
+            <a class="uxa1" href="index.html">ریاست عمومی پاسپورت</a>
             </div>
             <div id="uxdiv03">
             <a class="uxa1" href="print.html">رهنمود</a>
