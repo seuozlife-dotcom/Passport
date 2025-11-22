@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-image: url("bg-masthead.jpg");
+                background-size: cover;
+                margin: 0px;
+            }
+            #uxdiv{
+                width: 37%;
+                height: 90%;
+                background-color: whitesmoke;
+                margin-left: 3%;
+                margin-top: 2%;
+                direction: rtl;
+                border-radius: 5px;
+            }
+            #uxlabel{
+                padding-right: 5%;
+                margin-top: 15%;
+                display: inline-block;
+            }
+            .uxinput{
+                width:430px;
+                height: 40px;
+                margin-right: 5%;
+                margin-top: 1%;
+                background-color:rgb(229, 238, 248);
+                border: 0px solid rgb(229, 238, 248);
+                border-radius: 5px;
+                padding-right: 3%;
+            }
+            .uxlabel1{
+                padding-right: 5%;
+                margin-top:7%;
+                display: inline-block; 
+            }
+            #uxinput1{
+                width:430px;
+                height: 40px;
+                margin-right: 5%;
+                margin-top: 1%;
+                background-color:rgb(229, 238, 248);
+                border: 0px solid rgb(229, 238, 248);
+                border-radius: 5px;
+                padding-right: 2%;
+            }
+            #uxinput2{
+                width: 100px;
+                height: 50px;
+                background-color: rgb(16, 100, 224);
+                border: 0px solid rgb(16, 100, 224);
+                border-radius: 5px;
+                margin-right: 7%;
+                margin-top: 7%;
+            }
+            #uxh1{
+                font-size: 70px;
+                margin-top: -32%;
+                color: white;
+                direction: rtl;
+                padding-right: 10%;
+            }
+            #uxh11{
+                direction: rtl;
+                padding-right: 7%;
+                color: white;
+                margin-top: -3%;
+                font-size: 30px;
+            }
+            #uxp{
+                font-size: 30px;
+                direction: rtl;
+                padding-right: 5%;
+                color: white;
+            }
+            #uxp1{
+                font-size: 20px;
+                direction: rtl;
+                color: white;
+                padding-right: 5%;
+                margin-top: -2%;
+            }
+            #uxinput3{
+                width: 130px;
+                height: 30px;
+                background-color: rgb(93, 194, 102);
+                margin-left: 85%;
+                border-radius: 3px;
+                border: 0px solid rgb(93, 194, 102);
+                font-size: 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="uxdiv">
+            <label id="uxlabel">نام<span style="color: red;">*</span></label><br>
+            <input class="uxinput" type="text" placeholder="اسم خود را نظر به فورم وارد کنید"><br>
+            <label class="uxlabel1">نام پدر<span style="color: red;">*</span></label><br>
+            <input class="uxinput" type="text" placeholder="ولد خود را نظر به فورم وارد کنید"><br>
+            <label class="uxlabel1">نام پدرکلان<span style="color: red;">*</span></label><br>
+            <input class="uxinput" type="text" placeholder="ولدیت خود را نظر به فورم وارد کنید"><br>
+            <label class="uxlabel1">تاریخ تولد به شمسی</label><span style="color: red;">*</span></label><br>
+            <input id="uxinput1" type="text" placeholder="تاریخ تولد خود را نظر به فورم وارد کنید:(روز/ماه/سال) / مثال:(22/08/1404)"><br>
+            <form>
+            <input id="uxinput2" type="submit" value="جستجو">
+            </form>
+        </div>
+        <h1 id="uxh1">امارت اسلامی افغانستان</h1>
+        <h1 id="uxh11">صفحه جستجو برای کسانیکه قبلا در سیستم ثبت نام نموده اند </h1>
+        <p id="uxp">متقاضیان محترم!</p>
+        <p id="uxp1">در صورتیکه قبلا راجستر نموده اید می توانید مشخصات خویش را اینجا جستجو نمایید.</p>
+        <form action="searchingbrcode.html">
+            <input id="uxinput3" type="submit" value="جستجو به اساس بارکد">
+        </form>
+    </body>
+</html>
